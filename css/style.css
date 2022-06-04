@@ -1,0 +1,71 @@
+*, *::before, *::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: rgba(127, 255, 212, 0.151);
+}
+
+.wrapper {
+	width: 600px;
+	margin: 0 auto;
+	margin-top: 100px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.form {
+	width: 350px;
+	padding: 25px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+	border-radius: 5px;
+	row-gap: 15px;
+}
+
+label {
+	font-size: 30px;
+	font-weight: 500;
+
+}
+
+input {
+	margin-bottom: 15px;
+	padding: 0 10px;
+	width: 300px;
+	height: 55px;
+	border: 2px solid #8080808f;
+	border-radius: 5px;
+}
+
+button {
+	padding: 10px 0;
+	border: 2px solid #8080808f;
+	border-radius: 5px;
+}
+
+h2 {
+	margin-top: 50px;
+	font-size: 30px;
+	font-weight: 500;
+}
+
+.todo-list {
+	margin-top: 15px;
+	padding: 20px;
+	width: 350px;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	/* text-align: center; */
+	align-items: center;
+	border: 1px solid #8080808f;
+	border-radius: 5px;
+}
+
